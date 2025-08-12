@@ -1,7 +1,8 @@
 <div align="center">
-    <h1 color="purple">Scrimba</h1>
-    <br/>
-    <h1>Business Card</h1>
+    <h1 color="purple">
+        Scrimba
+        <br/> 
+        Business Card</h1>
 </div>
 <br/>
 <div align="center">
