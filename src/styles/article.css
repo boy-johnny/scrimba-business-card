@@ -1,0 +1,21 @@
+/* Main Content */
+main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 20px 40px;
+}
+
+article h2 {
+  font-size: 1.25rem;
+}
+
+article p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+main article {
+  border-bottom: 1px solid #fefae0;
+}

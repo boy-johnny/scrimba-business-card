@@ -1,0 +1,35 @@
+/* Container */
+.Business-Card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 360px;
+  border-radius: 12px;
+  background-color: var(--card-color);
+  color: white;
+  box-sizing: border-box;
+  box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+.Business-Card:hover,
+.Business-Card:focus {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .Business-Card {
+    max-width: 600px;
+  }
+}
+
+@media (min-width: 1080px) {
+  .Business-Card {
+    max-width: 800px;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
